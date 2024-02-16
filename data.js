@@ -18,5 +18,9 @@ const participantsData = [
 	{
 		sport: "Swimming",
 		totalParticipants: 35
+	},
+	{
+		sport: "Badminton",
+		totalParticipants: 45
 	}
 ];

@@ -1,3 +1,29 @@
-h1 {
-    text-align: center
+header { 
+    background-color: #003366; 
+    color: #ffffff; 
+    padding: 1em; 
+    text-align: center; 
+} main { 
+    margin: 2em; 
+} form { 
+    max-width: 500px; 
+    margin: 0 auto; 
+} label { 
+    display: block; 
+    margin-top: 1em; 
+} input, select, textarea { 
+    width: 100%; 
+    padding: 0.5em; 
+    margin-top: 0.25em; 
+} textarea { 
+    resize: vertical; 
+} input[type="submit"] { 
+    background-color: #003366; 
+    color: #ffffff; 
+    border: none; 
+    padding: 0.5em; 
+    cursor: pointer; 
+    margin-top: 1em; 
+} input[type="submit"]:hover { 
+    background-color: #002233; 
 }

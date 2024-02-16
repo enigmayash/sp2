@@ -1,18 +1,28 @@
-h1 {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  ul {
-    margin: 20px auto;
-    width: 80%;
-  }
-  
-  li {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
-  }
-  
-  h2 {
-    color: #005a9c;
-  }
+h1{
+  text-align: center;
+}
+.tournaments { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+} .tournament { 
+  background-color: #f2f2f2; 
+  border-radius: 5px; 
+  padding: 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  width: calc(33.333% - 20px); 
+  margin-bottom: 20px; 
+} .tournament h3 { 
+  margin-top: 0; 
+} .tournament p { 
+  margin-bottom: 10px; 
+} .register-btn { 
+  display: inline-block; 
+  background-color: #005a9c; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+} .register-btn:hover { 
+  background-color: #003d73; 
+} @media (max-width: 768px) { .tournament { width: 100%; } } 
